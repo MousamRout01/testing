@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym fobia</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(rgb(233, 238, 239),rgb(125, 117, 4));
+  
+}
+header{
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+li a::after{
+     content: '';
+     display: block;
+     height: 4px;
+     width: 0;
+     background: #c4c4f7;
+     transition: all .5s;
+
+}
+li a:hover::after{
+    width: 100%;
+    
+}
+main{
+    display: flex;
+   height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+    max-width: 750px;
+    height: auto;
+    
+
+}
+.content-left{
+    width: 40%;
+
+}
+main h1{
+    font-size: 54px;
+    color: #4e0870;
+    text-transform: uppercase;
+}
+main h2{
+    font-size:25px ;
+    color:#55998b;
+    font-synthesis-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+main p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #100f0f;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+.cta{
+    padding: 15px 30px;
+    background-color: rgb(150, 151, 151),rgb(84, 104, 44);
+    color: #333435;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 30px;    
+}
+        
+            
+
+
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="panda gym image.jpg" alt="logo" width="100px">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#" class="Signup-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-left">
+            <h1>GYM</h1>
+            <h2>FOBIA</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus nam velit commodi architecto atque quisquam, obcaecati corrupti est animi temporibus.</p>
+            <button class="cta">Learn More</button>
+        </div>
+        <div class="content-right">
+            <img src="cartton gym.jpg" alt=""  class="hero-img">
+        </div>
+    </main>
+</body>
+</html>

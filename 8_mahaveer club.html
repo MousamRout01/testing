@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(rgba(26, 9, 32, 0.615),rgba(41, 41, 36, 0.621)),url(jay\ hanuman.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav-bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 80px;
+
+        }
+        .nav-bar .title{
+            color: #fff;
+            font-size: 67px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        span{
+            color: bisque;
+        }
+        .nav-bar p{
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 50px;
+            color: rgb(104, 76, 56);
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .menu li{
+            list-style: none;
+            display: inline-block;
+
+        }
+        .menu li a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 27px;
+            font-weight: 600;
+            margin-left: 25px;
+
+        }
+        .menu li a:hover{
+            color: #694f1f;
+            padding: 5px 20px;
+            border: 2px solid grey;
+        }
+        .home{
+            height: 400px;
+            padding: 70px;
+
+        }
+        .title-1{
+            font-size: 56px;
+            color: aquamarine;
+            font-weight: 600;
+        }
+        .home p{
+            color:yellowgreen;
+            font-size: 20px;
+            padding-top: 10px;
+
+        }
+        .home button{
+            height: 40px;
+            color:rgb(243, 206, 151);
+            background-color: rgb(106, 26, 66);
+            font-size: 22px;
+            padding: 5px 30px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            transition: .4s ease;
+            cursor: pointer;
+        }
+        .home button:hover{
+            background: none;
+            border: 2px salmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1 class="title">MAHAVEER<span>CLUB</span></h1>
+            <p>Mahaveer Toka</p>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MEDHA</a></li>
+                <li><a href="#">BHASANI</a></li>
+                <li><a href="#">BANDPARTY</a></li>
+                <li><a href="#">DECORATION</a></li>
+            </ul>
+
+        </div>
+        <div class="home">
+            <h1 class="title-1">Mahaveer <span>Toka </span>Kebe<br>Debeni Dhoka</h1>
+            <p>Mahaveer culb proves this is the best club all over the biraswati</p>
+            <button type="button">Visit Now</button>
+
+        </div>
+    </div>
+</body>
+</html>
